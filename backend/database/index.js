@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const {MONGODB_CONNECTION_STRING} = require('../config/index')
 
-// const connectionString = "mongodb+srv://zeeshanjaved:Decima123@cluster0.jkwl0co.mongodb.net/test?retryWrites=true&w=majority";
+
 
 const dbConnect = async () => {
     try {
